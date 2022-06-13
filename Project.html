@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PEOPLE</p>
+  </a>
+
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"> Sustainable Improvement </span></h1>
+    
+    <img src="https://cdn.pixabay.com/photo/2012/12/07/06/18/hands-68919_1280.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>The Sustainable Improvement group develops models and tools that help companies contribute to sustainable development, promoting the progressive integration of circularity throughout the business model with triple impact objectives: economic, environmental and social. These models and tools are developed both at strategic and operational level (the latter following a Lean philosophy based on data, Lean-Six Sigma). <br>
+
+We are currently working on:<br>
+<UL>
+<li> Development of methodologies for the implementation of industrial symbiosis to facilitate the adoption of circular economy principles.</li>
+
+<li>Tools and techniques for the implementation of the Circular Economy in SMEs.</li>
+
+<li>Strategies for the deployment and evaluation of sustainable and circular production.</li>
+
+<li>Telemetry and diagnosis of water consumption in production processes.</li>
+
+<li>Data science projects in the field of industrial process improvement.</li> </UL> <br>
+
+We actively collaborate with other universities (Harvard University, MIT, IESE Business School, Bentley University, Mid Sweden University, University of Mondragon, University of the Basque Country, University of Deusto, International University of Catalonia, Pontificia Xavierana University, University of Montevideo, Universidad Panamericana, Universidad de la Sabana. And also different public organizations with which we have working agreements (Diputación de Gipuzkoa, Mancomunidad de San Markos, NaturKlima, ...) and we are in direct contact with the organizations: Food Cluster Basque Country and La Rioja, Aclima, Ihobe, Corporate Excellence-Center for Reputation Leadership....
+
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">Lines of Research</h3>
+    <p class="w3-wide"> Technological solutions to increase productivity, quality and environmental efficiency of processes.</p>
+    <p class="w3-wide">Business initiatives in the Circular Economy environment.</p>
+    
+    <p class="w3-wide">  Tools to encourage the commitment and participation of people in the organization to improve the environment.</p>
+  
+   <h3 class="w3-padding-16 w3-text-light-grey">Webpage</h3>
+   <a href="https://www.unav.edu/web/departamento-de-organizacion-industrial/investigacion/mejora-sostenible">Link </a>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey"> People </h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://www.unav.edu/documents/10174/29829809/viles_elisabeth.jpg/b28e018e-75a3-878a-2eb6-d32d218e511b?t=1619946121019" style="width:70%">
+        <p> 
+        <span> <b> Elisabet Viles Díez </b> </span> <br>
+         <span> Full professor </span><br>
+         <span> eviles@tecnun.es </span>
+        </p>
+        <img src="https://www.unav.edu/documents/10174/29829809/florencia.jpg/8b2f88d6-2aea-dfd6-6d44-9c5bc6263892?t=1635259508074" style="width:70%">
+         <p> 
+        <span> <b> Florencia Kalemkerian </b> </span> <br>
+         <span> PhD student </span><br>
+         <span> fkalemkerian@tecnun.es </span>
+        </p>
+      </div>
+
+      <div class="w3-half">
+        <img src="https://www.unav.edu/documents/10174/29829809/santos_garcia_javier.jpg/506031ef-7d0e-3e81-d273-fc7b4e56037e?t=1619946120535" style="width:70%">
+                <p> 
+        <span> <b> Javier Santos  </b> </span><br>
+         <span> Full professor </span><br>
+         <span> jsantos@tecnun.es </span>
+        </p>
+        <img src="https://www2.um.edu.uy/camiones-tco/assets/img/sol-cavallieri.jfif" style="width:70%">
+               <p> 
+        <span> <b> María Sol Cavallieri </b> </span><br>
+         <span> PhD student </span><br>
+         <span> mcavallieri@tecnun.es </span>
+        </p>
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  
+  
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
